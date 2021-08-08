@@ -29,7 +29,7 @@ public class Main {
 	
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws LoginException {
-		jda = new JDABuilder(AccountType.BOT).setToken("NzQ5NjM5MDU5MDEzNTAwOTI5.X0u5xw.rXRcI0TS9mmPKvFzGLzg7WmzDws").build();
+		jda = new JDABuilder(AccountType.BOT).setToken("token").build();
 		
 		jda.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
 		jda.getPresence().setActivity(Activity.watching("Discord Nitro"));
